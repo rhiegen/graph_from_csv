@@ -27,7 +27,9 @@ monta_grafo(no_inicial, edges, itens_saida, mapa)
 
 # do_it()
 
-
-draw_graph(mapa, node_size=4000, font_size=13)
+if mapa:
+    draw_graph(mapa, node_size=4000, font_size=14)
+else:
+    print('Nenhum mapa disponível')
 
 print()
