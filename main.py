@@ -28,6 +28,6 @@ monta_grafo(no_inicial, edges, itens_saida, mapa)
 # do_it()
 
 
-draw_graph(mapa, node_size=4000, font_size=12)
+draw_graph(mapa, node_size=4000, font_size=11)
 
 print()
