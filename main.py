@@ -24,7 +24,7 @@ edges = []
 entrada = read_csv_file('in_cond.csv')
 saida = read_csv_file('out_cond.csv')
 no_inicial = input('Digite o no inicial: ').upper()
-no_inicial = 'BICD020'
+no_inicial = 'ABCD020'
 mapa = nx.Graph()
 monta_grafo(no_inicial, edges, itens_saida, mapa)
 
