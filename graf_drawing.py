@@ -3,17 +3,8 @@ import matplotlib.pyplot as plt
 import networkx as nx
 from Graph import Grafo
 
-nodes = ['BICD020', 'ANCD010', 'CTMD015',
-         'ANCD010', 'TRFD010',
-         'CAVD005', 'APDD012', 'AGED960',
-         'BICD015']
-edg = [('BICD020', 'ANCD010'), ('BICD020', 'CTMD015'),
-       ('ANCD010', 'TRFD010'), ('ANCD010', 'CTMD015'),
-       ('BICD020', 'CAVD005'), ('CTMD015', 'CTMD015'),
-       ('APDD012', 'AGED960'), ('AGED960', 'TRFD010'),
-       ('TRFD010', 'CAVD005'), ('BICD015', 'BICD020'),
-       ('CTMD015', 'BICD015'), ('ANCD010', 'BICD020'),
-       ('TRFD010', 'ANCD010')]
+nodes = ['', ]
+edg = [('', ''),]
 
 
 def draw_graph(grafo, node_size, font_size, save=False):
